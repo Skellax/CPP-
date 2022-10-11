@@ -1,0 +1,31 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mfuhrman/CPP1/ex00'
+c++    -c -o main.o main.cpp
+c++    -c -o Zombie.o Zombie.cpp
+c++    -c -o newZombie.o newZombie.cpp
+c++    -c -o randomChump.o randomChump.cpp
+echo '\033[92m' "--Loading--" '\033[3m'
+sleep 0.2
+echo '\033[92m' "|#         |"
+sleep 0.2
+echo '\033[92m' "|##        |"
+sleep 0.2
+echo '\033[92m' "|###       |"
+sleep 0.2
+echo '\033[92m' "|####      |"
+sleep 0.2
+echo '\033[92m' "|#####     |"
+sleep 0.2
+echo '\033[92m' "|######    |"
+sleep 0.2
+echo '\033[92m' "|#######   |"
+sleep 0.2
+echo '\033[92m' "|########  |"
+sleep 0.2
+echo '\033[92m' "|######### |"
+sleep 0.2
+echo '\033[92m' "|##########|" '\033[3m'
+g++ -Wall -Wextra -Werror -std=c++98 main.cpp Zombie.cpp newZombie.cpp randomChump.cpp -o Zombie
+echo '\033[92m' "Zombie was created ! " '\033[3m'
+make: Leaving directory `/Users/mfuhrman/CPP1/ex00'
+ 

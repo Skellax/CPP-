@@ -1,0 +1,32 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mfuhrman/CPP1/ex03'
+c++    -c -o main.o main.cpp
+ 
+c++    -c -o HumanA.o HumanA.cpp
+c++    -c -o HumanB.o HumanB.cpp
+c++    -c -o Weapon.o Weapon.cpp
+echo '\033[92m' "--Loading--" '\033[3m'
+sleep 0.2
+echo '\033[92m' "|#         |"
+sleep 0.2
+echo '\033[92m' "|##        |"
+sleep 0.2
+echo '\033[92m' "|###       |"
+sleep 0.2
+echo '\033[92m' "|####      |"
+sleep 0.2
+echo '\033[92m' "|#####     |"
+sleep 0.2
+echo '\033[92m' "|######    |"
+sleep 0.2
+echo '\033[92m' "|#######   |"
+sleep 0.2
+echo '\033[92m' "|########  |"
+sleep 0.2
+echo '\033[92m' "|######### |"
+sleep 0.2
+echo '\033[92m' "|##########|" '\033[3m'
+g++ -Wall -Wextra -Werror -std=c++98 main.cpp HumanA.cpp HumanB.cpp Weapon.cpp  -o Fight
+echo '\033[92m' "Fight was created ! " '\033[3m'
+make: Leaving directory `/Users/mfuhrman/CPP1/ex03'
+ 

@@ -1,0 +1,30 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mfuhrman/CPP0/ex02'
+c++    -c -o Account.o Account.cpp
+ 
+c++    -c -o tests.o tests.cpp
+echo '\033[92m' "--Loading--" '\033[3m'
+sleep 0.2
+echo '\033[92m' "|#         |"
+sleep 0.2
+echo '\033[92m' "|##        |"
+sleep 0.2
+echo '\033[92m' "|###       |"
+sleep 0.2
+echo '\033[92m' "|####      |"
+sleep 0.2
+echo '\033[92m' "|#####     |"
+sleep 0.2
+echo '\033[92m' "|######    |"
+sleep 0.2
+echo '\033[92m' "|#######   |"
+sleep 0.2
+echo '\033[92m' "|########  |"
+sleep 0.2
+echo '\033[92m' "|######### |"
+sleep 0.2
+echo '\033[92m' "|##########|" '\033[3m'
+g++ -Wall -Wextra -Werror -std=c++98 Account.cpp tests.cpp -o dreamJob
+echo '\033[92m' "dreamJob was created ! " '\033[3m'
+make: Leaving directory `/Users/mfuhrman/CPP0/ex02'
+ 

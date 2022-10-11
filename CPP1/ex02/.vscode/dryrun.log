@@ -1,0 +1,28 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mfuhrman/CPP1/ex02'
+c++    -c -o main.o main.cpp
+echo '\033[92m' "--Loading--" '\033[3m'
+sleep 0.2
+echo '\033[92m' "|#         |"
+sleep 0.2
+echo '\033[92m' "|##        |"
+sleep 0.2
+echo '\033[92m' "|###       |"
+sleep 0.2
+echo '\033[92m' "|####      |"
+sleep 0.2
+echo '\033[92m' "|#####     |"
+sleep 0.2
+echo '\033[92m' "|######    |"
+sleep 0.2
+echo '\033[92m' "|#######   |"
+sleep 0.2
+echo '\033[92m' "|########  |"
+sleep 0.2
+echo '\033[92m' "|######### |"
+sleep 0.2
+echo '\033[92m' "|##########|" '\033[3m'
+g++ -Wall -Wextra -Werror -std=c++98 main.cpp  -o Brain
+echo '\033[92m' "Brain was created ! " '\033[3m'
+make: Leaving directory `/Users/mfuhrman/CPP1/ex02'
+ 
